@@ -1,4 +1,4 @@
-# DSA Projeto 2 - Script 01 - Distinct
+# EDA Projeto 1 - Script 01 - Distinct
 
 # Imports
 import os
