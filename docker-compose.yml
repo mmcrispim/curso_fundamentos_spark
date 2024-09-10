@@ -14,7 +14,7 @@ services:
       retries: 3
     volumes:
       - ./dados:/opt/spark/data
-      - ./fundamentos_spark:/opt/spark/apps
+      - ./curso_fundamentos_spark:/opt/spark/apps
       - spark-logs:/opt/spark/spark-events
     env_file:
       - .env.spark
@@ -44,7 +44,7 @@ services:
       - .env.spark
     volumes:
       - ./dados:/opt/spark/data
-      - ./fundamentos_spark:/opt/spark/apps
+      - ./curso_fundamentos_spark:/opt/spark/apps
       - spark-logs:/opt/spark/spark-events
 
 volumes:
